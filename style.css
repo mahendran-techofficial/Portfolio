@@ -223,6 +223,7 @@ section.about {
     background: var(--button-hover-bg);
     transform: scale(1.05);
 }
+
 /* -----------about--------------- */
 .about{
     position: relative;

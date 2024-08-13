@@ -78,12 +78,3 @@ document.addEventListener('DOMContentLoaded', function () {
     ScrollReveal().reveal('.services-list', {origin: 'bottom'})
 
 });
-
-function OpenHomeWebsite(){
-     var URL = ''
-     window.open(URL);
-}
-function OpenAgeCalcWebsite(){
-    var URL = ''
-    window.open(URL);
-}
