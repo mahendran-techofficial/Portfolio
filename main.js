@@ -69,11 +69,11 @@ document.addEventListener('DOMContentLoaded', function () {
         duration: 2000,
         delay: 200,
     })
-    ScrollReveal().reveal('.header-text,.about-img,.technical-bars, .contact-info', {origin: 'left'});
+    ScrollReveal().reveal('.header-text,.about-img,.technical-bars, .contact-info, .work', {origin: 'left'});
 
     ScrollReveal().reveal('.pic,.experience, .tools-box, .contact-form', {origin: 'right'})
 
-    ScrollReveal().reveal('.about-content, .skills-heading, .service-header, .contact-header , .skills-header', {origin: 'top'})
+    ScrollReveal().reveal('.about-content, .skills-heading, .service-header, .contact-header , .skills-header, .project-header', {origin: 'top'})
 
     ScrollReveal().reveal('.services-list', {origin: 'bottom'})
 
