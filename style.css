@@ -95,7 +95,6 @@ section {
 }
 section.about {
     padding: 10rem 9% 9rem;
-    background: var(--secondarybg-color);
 }
 
 .logo{
@@ -307,6 +306,9 @@ section.about {
 }
 
 /* ----------------skills------------- */
+#skills{
+    background: var(--secondarybg-color);
+}
 .skill-container {
     width: 50%;
     height: auto;
@@ -573,9 +575,9 @@ section.about {
     margin-bottom: 20px;
 }
 /* -------portfolio----------- */
-section.projects{
-    background-color: var(--secondarybg-color);
-    }
+#projects{
+    background: var(--secondarybg-color);
+}
 #portfolio{
     padding: 50px 0;
 }
